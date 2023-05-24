@@ -1,0 +1,102 @@
+.container-isi {
+    margin: 55px 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*CSS untuk bagian gambar start*/
+.container-gambar img {
+    width: 240px;
+    height: 240px;
+}
+/*CSS untuk bagian gambar end*/
+
+/*CSS untuk bagian deskripsi start*/
+.container-deskripsi {
+    width: 360px;
+    color: #212121;
+}
+
+.namaproduk {
+    margin-bottom: 5px;
+}
+
+.subjudul-isi, .jenis-detail, .pembelian {
+    color: #626265;
+}
+.pemisah-row {
+    margin: 0 5px;
+}
+
+.detail-div {
+    margin: 5px 0;
+    color: #4e5bb2;
+}
+/*CSS untuk bagian deskripsi end*/
+
+/*CSS untuk bagian harga start*/
+.container-harga {
+    width: 238px;
+    height: 202px;
+    border-radius: 10px;
+    box-shadow: #626265 0 0 2px;
+}
+
+.container-harga-isi {
+    margin: 15px;
+}
+
+.stoktotal {
+    font-weight: bold;
+}
+
+.button-harga {
+    display: flex;
+    justify-content: center;
+}
+
+.beliBtn {
+    padding: 9px 28px;
+    background-color: #4e5bb2;
+    color: #EAEAEA;
+    border: solid 2px;
+    border-color: #EAEAEA;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    font-size: 15px;
+}
+
+.keranjangBtn {
+    padding: 9px 28px;
+    background-color: #4e5bb2;
+    color: #EAEAEA;
+    border: solid 2px;
+    border-color: #EAEAEA;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    font-size: 15px;
+}
+
+.beliBtn:hover, .keranjangBtn:hover {
+    background-color: #3C4048;
+    color: #EAEAEA;
+    border: solid 2px #3C4048;
+}
+
+.button-tambahan {
+    cursor: pointer;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subjudultambahan {
+    font-size: 14px;
+}
+/*CSS untuk bagian deskripsi end*/
+
+.etalase-bawah {
+    margin: 20 32px;
+}
